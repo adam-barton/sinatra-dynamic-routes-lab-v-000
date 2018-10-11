@@ -38,7 +38,7 @@ class App < Sinatra::Base
         elsif operation = "multiply"
         content = num1 * num2
         else
-        content = num1 / num2
+        content = num2 / num1
         end
         content.to_s
     end

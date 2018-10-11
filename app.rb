@@ -1,3 +1,4 @@
+require 'pry'
 require_relative 'config/environment'
 
 class App < Sinatra::Base
@@ -40,7 +41,6 @@ class App < Sinatra::Base
         else
           "#{@num1 / @num2}"
         end
-
     end
 
 end

@@ -40,7 +40,7 @@ class App < Sinatra::Base
         elsif operation == "divide"
           content = num1 / num2
         end
-        content
+        content.to_s
     end
 
 end

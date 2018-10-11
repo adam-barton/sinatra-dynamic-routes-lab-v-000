@@ -32,7 +32,7 @@ class App < Sinatra::Base
       @num2 = params[:number2].to_i
 
         if @opperation == "add"
-          content = "#{@num1 + @num2}"
+          content = @num1 + @num2
         elsif @operation == "subtract"
           content = "#{@num1 - @num2}"
         elsif @operation = "multiply"

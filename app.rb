@@ -34,11 +34,11 @@ class App < Sinatra::Base
         if @opperation == "add"
           content = num1 + num2
         elsif @operation == "subtract"
-          content = @num1 - @num2
+          content = num1 - num2
         elsif @operation = "multiply"
-        content = @num1 * @num2
+        content = num1 * num2
         else
-        content = @num1 / @num2
+        content = num1 / num2
         end
         content.to_s
     end
